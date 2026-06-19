@@ -6,7 +6,7 @@ node_modules/
 dist/
 .next/
 out/
-public/r/
+**/public/r/
 *.tsbuildinfo
 
 # test
