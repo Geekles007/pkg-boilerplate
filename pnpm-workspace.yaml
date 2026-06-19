@@ -1,0 +1,8 @@
+packages:
+  - "packages/*"
+  - "registry"
+  - "apps/*"
+allowBuilds:
+  '@biomejs/biome': true
+  esbuild: true
+  sharp: true

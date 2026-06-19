@@ -1,0 +1,29 @@
+{
+  "name": "@pkg-boilerplate/www",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Documentation site. Also serves the static registry under /r.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/copy-registry.mjs",
+    "dev": "next dev --port 3100",
+    "prebuild": "node scripts/copy-registry.mjs",
+    "build": "next build",
+    "start": "next start --port 3100",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@pkg-boilerplate/core": "workspace:*",
+    "next": "^15.1.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@pkg-boilerplate/registry": "workspace:*",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "typescript": "^5.6.3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://pkg-boilerplate/schema/registry-index.json",
+  "name": "pkg-boilerplate",
+  "homepage": "https://Geekles007.github.io/pkg-boilerplate",
+  "items": [
+    {
+      "name": "example",
+      "type": "lib",
+      "description": "A tiny example item. Copy this folder to create your own."
+    }
+  ]
+}
